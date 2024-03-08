@@ -1,0 +1,34 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:'Open sans',sans-serif;
+}
+.wrapper{
+    width:100%;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.container{
+    width:50%;
+    height:50vh;
+    display: flex;
+    align-items: start;
+    justify-content:start;
+    flex-direction: column;
+    gap:20px;
+}
+.custom-button{
+    background-color: rgb(40, 199, 32);
+    width:25%;
+    height:10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+    border-radius:10px;
+    font-weight: 600;
+    font-size: large;
+}
